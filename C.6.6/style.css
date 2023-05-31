@@ -1,0 +1,46 @@
+.btn {
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  border-color: transparent;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: black;
+   background: #87CEEB;}
+.input {
+  width: 300px;
+  margin: px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  border:#87CEEB solid;
+  font-size: 12px;
+  line-height: 15px;
+  
+}
+#output {
+  width: 600px; 
+  height: 600px; 
+  overflow-y: auto;
+  display: block;
+  position: relative;
+  border: #87CEEB solid;
+} 
+.out, .in  {
+  border: #87CEEB solid;
+  border-radius: 8px;
+  position: relative;
+  width: 45%;
+  margin: 20px;
+  padding: 10px;
+}
+
+.in {
+  left: 45%;
+  align: right;
+  color: black;
+}
+.out {
+  position: flex-start;
+  color: black
+}
